@@ -1,0 +1,20 @@
+name       : i3lock-fancy
+version    : 0.2
+release    : 1
+source     :
+    - https://github.com/meskarune/i3lock-fancy/archive/0.2.tar.gz : be30c8ace49c69debea0fd5e3e46548caccdce9a70ec744f8e9b15ec6c3d1508
+license    : MIT
+component  : desktop.i3
+summary    : Script for i3lock that takes a screenshot of the desktop, blurs the background and adds a lock icon and text
+description: |
+    Script for i3lock that takes a screenshot of the desktop, blurs the background and adds a lock icon and text
+rundeps  :
+    - i3lock
+    - imagemagick
+install    : |
+    install -dm00644 $installdir/usr/bin
+    install -dm00644 $installdir/usr/share/i3lock-fancy/{,icons}
+
+    install -Dm00755 lock $installdir/usr/share/i3lock-fancy/
+    install -Dm00644 icons/*.png $installdir/usr/share/i3lock-fancy/icons
+    ln -s /usr/share/i3lock-fancy/lock $installdir/usr/bin/i3lock-fancy

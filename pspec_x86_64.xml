@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>i3lock-fancy</Name>
+        <Packager>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federicodamiansch@gmail.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>desktop.i3</PartOf>
+        <Summary xml:lang="en">Script for i3lock that takes a screenshot of the desktop, blurs the background and adds a lock icon and text</Summary>
+        <Description xml:lang="en">Script for i3lock that takes a screenshot of the desktop, blurs the background and adds a lock icon and text
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>i3lock-fancy</Name>
+        <Summary xml:lang="en">Script for i3lock that takes a screenshot of the desktop, blurs the background and adds a lock icon and text</Summary>
+        <Description xml:lang="en">Script for i3lock that takes a screenshot of the desktop, blurs the background and adds a lock icon and text
+</Description>
+        <PartOf>desktop.i3</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/i3lock-fancy</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-12-15</Date>
+            <Version>0.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Federico Damián Schonborn</Name>
+            <Email>federicodamiansch@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
