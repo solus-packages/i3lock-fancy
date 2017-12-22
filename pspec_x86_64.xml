@@ -2,8 +2,8 @@
     <Source>
         <Name>i3lock-fancy</Name>
         <Packager>
-            <Name>Federico Damián Schonborn</Name>
-            <Email>federicodamiansch@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>desktop.i3</PartOf>
@@ -24,12 +24,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-12-15</Date>
+        <Update release="2">
+            <Date>2017-12-22</Date>
             <Version>0.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Federico Damián Schonborn</Name>
-            <Email>federicodamiansch@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
